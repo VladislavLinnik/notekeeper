@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 20px 0 0 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.bold { font-weight: bold; }
+
+.italic { font-style: italic; }
+
+.app {
+    margin: 30px auto 0;
+    width: 600px;
+}
+
+.format {
+    margin-bottom: 5px;
+}
+
+.format__btn {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+    font-size: 24px;
+    resize: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.action {
+    margin-top: 10px;
+    display: flex;
+}
+
+.action__btn {
+    padding: 10px;
+    width: 48%;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+.action__btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.action__btn + .action__btn {
+    margin-left: 4%;
+}
+
+b { font-weight: bold; }
+i { font-style: italic; }

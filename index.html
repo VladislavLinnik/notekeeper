@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>NoteKeeper</title>
+</head>
+<body>
+    <h1 class="logo"><a href="/">NoteKeeper</a></h1>
+    
+    <main class="app">
+        <div class="format">
+            <button id="italic" class="format__btn italic">I</button>
+            <button id="bold" class="format__btn bold">B</button>
+        </div>
+        <div contenteditable="true" id="message" class="message"></div>
+        <div class="action">
+            <button id="save" class="action__btn">Сохранить</button>
+            <button id="reset" class="action__btn">Сбросить</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
